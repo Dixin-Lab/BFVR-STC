@@ -33,4 +33,27 @@
 
 </div>
 
+# Getting Started
+
+## Dependencies and Installation
+
+## Quick Inference
+
+### Download Pre-trained Models
+
+### Prepare Testing Data
+
+### Inference
+
+## Citation
+
+   If you find our repo useful for your research, please consider citing our paper:
+
+   ```bibtex
+
+   ```
+## Contact
+
+If you have any question, please feel free to contact us via `yutongwang1012@gmail.com`.
+
 
