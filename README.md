@@ -17,7 +17,7 @@
         <img src='https://img.shields.io/badge/arXiv-2411.16468-red?style=flat&logo=arXiv&logoColor=red' alt='arxiv'>
         </a>
         <a href="https://hhhh1138.github.io/project-page-BFVR-STC/" target='_blank'>
-        <img src="https://img.shields.io/badge/🐳Webpage-Project%20Page-blue">
+        <img src="https://img.shields.io/badge/🐳Webpage-Project-blue">
         </a>
         </a>
     </h4>
