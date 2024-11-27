@@ -14,10 +14,10 @@
 <div>
     <h4 align="center">
         <a href="https://arxiv.org/abs/2411.16468" target='_blank'>
-        <img src="https://img.shields.io/badge/arXiv-STC-b31b1b.svg">
+        <img src='https://img.shields.io/badge/arXiv-2411.16468-red?style=flat&logo=arXiv&logoColor=red' alt='arxiv'>
         </a>
         <a href="https://hhhh1138.github.io/project-page-BFVR-STC/" target='_blank'>
-        <img src="https://img.shields.io/badge/🐳-Project%20Page-blue">
+        <img src="https://img.shields.io/badge/🐳Webpage-Project%20Page-blue">
         </a>
         </a>
     </h4>
