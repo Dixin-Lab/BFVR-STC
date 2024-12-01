@@ -24,6 +24,11 @@
 </div>
 
 <p align="center">
+  <img src="./assets/figures/stage1.png" alt="showcase">
+  <img src="./assets/figures/stage2.png" alt="showcase">
+</p>
+
+<p align="center">
   <img src="./assets/images/KEEP_showcase.gif" alt="showcase">
   <br>
   🔥 For more results, visit our <a href="https://hhhh1138.github.io/project-page-BFVR-STC/"><strong>project page</strong></a> 🔥
