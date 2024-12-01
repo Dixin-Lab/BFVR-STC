@@ -33,13 +33,6 @@
 
 </div>
 
-# Arch
-
-<p align="center">
-  <img src="./assets/figures/stage1.png" alt="showcase" width="80%">
-  <img src="./assets/figures/stage2.png" alt="showcase" width="80%>
-</p>
-
 # Getting Started
 
 ## Dependencies and Installation
