@@ -50,7 +50,12 @@
    If you find our repo useful for your research, please consider citing our paper:
 
    ```bibtex
-
+    @article{wang2024efficient,
+    title={Efficient Video Face Enhancement with Enhanced Spatial-Temporal Consistency},
+    author={Yutong Wang and Jiajie Teng and Jiajiong Cao and Yuming Li and Chenguang Ma and Hongteng Xu and Dixin Luo},
+    journal={arXiv preprint arXiv:2411.16468},
+    year={2024}
+}
    ```
 ## Contact
 
