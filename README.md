@@ -32,16 +32,14 @@
 </div>
 
 # Overview
-<p align="center">
 <figure>
     <img src="assets/figures/stage1.png" width="800px"/>
-    <figcaption style="display: grid; place-items: center;">Network architecture of Stage I (Codebook learning).</figcaption>
+    <figcaption align="center">Network architecture of Stage I (Codebook learning).</figcaption>
 </figure>
 <figure>
     <img src="assets/figures/stage2.png" width="800px"/>
-    <figcaption style="display: grid; place-items: center;">Network architecture of Stage II (Lookup transformer learning).</figcaption>
+    <figcaption align="center">Network architecture of Stage II (Lookup transformer learning).</figcaption>
 </figure>
-</p>
 
 # Getting Started
 
