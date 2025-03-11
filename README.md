@@ -63,7 +63,8 @@ conda install -c conda-forge ffmpeg
 ### Download Pre-trained Models
 All pretrained models can also be automatically downloaded during the first inference. You can also download our pretrained models from [Releases](https://github.com/Dixin-Lab/BFVR-STC/releases/tag/init) to the weights folder.
 
-### Prepare Testing Data
+### Training and Testing Data
+VFHQ and VFHQ-Test dataset can be downloaded from the [webpage](https://liangbinxie.github.io/projects/vfhq/). The data processing functions can be found in the [utils]() directory.  
 
 ### Inference
 
