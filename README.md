@@ -61,6 +61,7 @@ conda install -c conda-forge ffmpeg
 ## Quick Inference
 
 ### Download Pre-trained Models
+All pretrained models can also be automatically downloaded during the first inference. You can also download our pretrained models from [Releases](https://github.com/Dixin-Lab/BFVR-STC/releases/tag/init) to the weights folder.
 
 ### Prepare Testing Data
 
