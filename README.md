@@ -33,8 +33,14 @@
 
 # Overview
 <p align="center">
-<img src="assets/figures/stage1.png" width="800px"/>
-<img src="assets/figures/stage2.png" width="800px"/>
+<figure>
+    <img src="assets/figures/stage1.png" width="800px"/>
+    <figcaption>Network architecture of Stage I (Codebook learning).</figcaption>
+</figure>
+<figure>
+    <img src="assets/figures/stage2.png" width="800px"/>
+    <figcaption>Network architecture of Stage II (Lookup transformer learning).</figcaption>
+</figure>
 </p>
 
 # Getting Started
