@@ -32,11 +32,20 @@
 </div>
 
 # Overview
+| <img src="https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/stage1.png" alt="Stage1" width="600"> |
+|:----------------------:|
+| Network architecture of Stage 1 (Codebook learning).                       |
+| <img src="https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/stage2.png" alt="Stage1" width="600"> |
+| Network architecture of Stage 2 (Lookup transformer learning).                       |
+
+...
+
 | ![Stage1](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/stage1.png) |
 |:----------------------:|
 | Network architecture of Stage 1 (Codebook learning).                       |
 | ![Stage2](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/stage2.png) |
 | Network architecture of Stage 2 (Lookup transformer learning).                       |
+
 
 # Getting Started
 
