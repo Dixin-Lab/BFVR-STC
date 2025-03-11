@@ -67,6 +67,20 @@ All pretrained models can also be automatically downloaded during the first infe
 VFHQ and VFHQ-Test dataset can be downloaded from the [webpage](https://liangbinxie.github.io/projects/vfhq/). The data processing functions can be found in the [utils]() directory.  
 
 ### Inference
+🧑🏻 Blind Face Video Restoration
+```
+python scripts/infer_bfvr.py --input_path [video path] --output_base [output directory]
+```
+🧑🏻 Video Brightness De-flickering
+```
+python scripts/infer_deflicker.py --input_path [video path] --output_base [output directory]
+```
+🧑🏻 Video Pixel De-flickering
+```
+python scripts/infer_deflickersd.py --input_path [video path] --output_base [output directory]
+```
+### Evaluation 
+The implementation of commonly used metrics, such as PSNR, SSIM, LPIPS, FVD, IDS and AKD, can be found in the [evaluation](https://github.com/Dixin-Lab/BFVR-STC/tree/main/evaluation). Face-Consistency and Flow-Score can be calculated by video evaluation benchmark [EvalCrafter](https://github.com/evalcrafter/EvalCrafter).
 
 ## Citation
 
