@@ -36,6 +36,20 @@
 # Getting Started
 
 ## Dependencies and Installation
+required packages in `requirements`
+```
+# git clone this repository
+git clone https://github.com/Dixin-Lab/BFVR-STC
+cd BFVR-STC
+
+# create new anaconda env
+conda env create -f environment.yaml
+conda activate bfvr
+
+# install python dependencies
+conda install -c conda-forge dlib
+conda install -c conda-forge ffmpeg
+```
 
 ## Quick Inference
 
