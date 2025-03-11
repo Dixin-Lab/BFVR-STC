@@ -35,11 +35,11 @@
 <p align="center">
 <figure>
     <img src="assets/figures/stage1.png" width="800px"/>
-    <figcaption style="text-align: center;">Network architecture of Stage I (Codebook learning).</figcaption>
+    <figcaption style="display: flex; justify-content: center; align-items: center; height: 50px;">Network architecture of Stage I (Codebook learning).</figcaption>
 </figure>
 <figure>
     <img src="assets/figures/stage2.png" width="800px"/>
-    <figcaption style="text-align: center;">Network architecture of Stage II (Lookup transformer learning).</figcaption>
+    <figcaption style="display: flex; justify-content: center; align-items: center; height: 50px;">Network architecture of Stage II (Lookup transformer learning).</figcaption>
 </figure>
 </p>
 
