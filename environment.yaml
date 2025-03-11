@@ -134,4 +134,3 @@ dependencies:
       - werkzeug==3.0.6
       - yapf==0.43.0
       - zipp==3.20.2
-prefix: /home/yutong/anaconda3/envs/bfvr
