@@ -41,7 +41,7 @@
     <figcaption align="center">Network architecture of Stage II (Lookup transformer learning).</figcaption>
 </figure>
 
-| ![Stage1](https://github.com/Dixin-Lab/BFVR-STC/assets/figures/stage1.png) |
+| ![Stage1](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/stage1.png) |
 |:-----------------------------------------:|
 | Network architecture of Stage I (Codebook learning).                       |
 
