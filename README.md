@@ -41,6 +41,10 @@
     <figcaption align="center">Network architecture of Stage II (Lookup transformer learning).</figcaption>
 </figure>
 
+| ![Stage1]("assets/figures/stage1.png") |
+|:-----------------------------------------:|
+| Network architecture of Stage I (Codebook learning).                       |
+
 # Getting Started
 
 ## Dependencies and Installation
