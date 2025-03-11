@@ -24,15 +24,18 @@
 </div>
 
 <p align="center">
-  <img src="assets/figures/stage1.png" width="800px"/>
-  <img src="assets/figures/stage2.png" width="800px"/>
-  <br>
   🔥 For more results, visit our <a href="https://hhhh1138.github.io/project-page-BFVR-STC/"><strong>project page</strong></a> 🔥
   <br>
   ⭐ If you found this project helpful to your projects, please help star this repo. Thanks! 🤗
 </p>
 
 </div>
+
+# Overview
+<p align="center">
+<img src="assets/figures/stage1.png" width="800px"/>
+<img src="assets/figures/stage2.png" width="800px"/>
+</p>
 
 # Getting Started
 
