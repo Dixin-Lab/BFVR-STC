@@ -63,8 +63,8 @@
 ## Pixel de-flickering (for synthesized talking head videos)
 | Degraded    | Enhanced     | Degraded      | Enhanced      |
 |------------------|------------------|------------------|------------------|
-| ![GIF1](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-1-1.gif)| ![GIF2](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-1-0.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-2-1.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-2-0.gif)|
-| ![GIF1](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-3-1.gif)| ![GIF2](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-3-0.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-4-1.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-4-0.gif)|
+| ![GIF1](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-1-1.gif)| ![GIF2](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-1-0.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-2-1.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-1-2.gif)|
+| ![GIF1](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-3-1.gif)| ![GIF2](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-1-3.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-4-1.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/4-1-4.gif)|
 
 # Getting Started
 
