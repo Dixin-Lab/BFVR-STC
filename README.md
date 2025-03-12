@@ -40,6 +40,13 @@
 
 **TLDW**: STC is a novel video face enhancement framework that efficiently solves the BFVR and de-flickering tasks.
 
+# Gallery
+
+| Degraded    | Enhanced     | Degraded      | Enhanced      |
+|------------------|------------------|------------------|------------------|
+| ![GIF1](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-1-1.gif)<br><small>Caption 1</small> | ![GIF2](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-1-0.gif)<br><small>Caption 2</small> | ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-2-1.gif)<br><small>Caption 3</small> | ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-2-0.gif)<br><small>Caption 3</small> |
+
+
 # Getting Started
 
 ## Dependencies and Installation
