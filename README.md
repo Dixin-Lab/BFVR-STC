@@ -38,7 +38,7 @@
 | <img src="https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/stage2.png" alt="Stage1" width="800"> |
 | Network architecture of Stage 2 (Lookup transformer learning).                       |
 
-**TLDW**: STC is a novel video face enhancement framework that efficiently solves the BFVR and de-flickering tasks.
+**TL;DR**: STC is a novel video face enhancement framework that efficiently solves the BFVR and de-flickering tasks.
 
 # Gallery
 ## Blind face video restoration 
