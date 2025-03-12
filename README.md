@@ -41,13 +41,11 @@
 **TLDW**: STC is a novel video face enhancement framework that efficiently solves the BFVR and de-flickering tasks.
 
 # Gallery
-
+## Blind face video restoration 
 | Degraded    | Enhanced     | Degraded      | Enhanced      |
 |------------------|------------------|------------------|------------------|
 | ![GIF1](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-1-1.gif)| ![GIF2](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-1-0.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-2-1.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-2-0.gif)|
-| Degraded    | Enhanced     | Degraded      | Enhanced      |
 | ![GIF1](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-3-1.gif)| ![GIF2](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-3-0.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-4-1.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-4-0.gif)|
-| Degraded    | Enhanced     | Degraded      | Enhanced      |
 | ![GIF1](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-5-1.gif)| ![GIF2](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-5-0.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-6-1.gif)| ![GIF3](https://github.com/Dixin-Lab/BFVR-STC/blob/main/assets/figures/1-6-0.gif)|
 
 
