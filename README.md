@@ -24,7 +24,7 @@
 </div>
 
 <p align="center">
-  🔥 For more results, visit our <a href="https://hhhh1138.github.io/project-page-BFVR-STC/"><strong>project page</strong></a> 🔥
+  🔥 For more results, visit our <a href="https://dixin-lab.github.io/project-page-BFVR-STC/"><strong>project page</strong></a> 🔥
   <br>
   ⭐ If you found this project helpful to your projects, please help star this repo. Thanks! 🤗
 </p>
