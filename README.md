@@ -97,11 +97,11 @@ VFHQ and VFHQ-Test dataset can be downloaded from the [webpage](https://liangbin
 ```
 python scripts/infer_bfvr.py --input_path [video path] --output_base [output directory]
 ```
-🧑🏻 Video Brightness De-flickering
+🧑🏻 Face Video Brightness De-flickering
 ```
 python scripts/infer_deflicker.py --input_path [video path] --output_base [output directory]
 ```
-🧑🏻 Video Pixel De-flickering
+🧑🏻 Face Video Pixel De-flickering
 ```
 python scripts/infer_deflickersd.py --input_path [video path] --output_base [output directory]
 ```
