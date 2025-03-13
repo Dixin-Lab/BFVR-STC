@@ -120,6 +120,10 @@ The implementation of commonly used metrics, such as PSNR, SSIM, LPIPS, FVD, IDS
     year={2024}
 }
    ```
+
+## Acknowledgement
+The code framework is mainly modified from [CodeFormer](https://github.com/sczhou/CodeFormer/). Please refer to the original repo for more usage and documents.
+
 ## Contact
 
 If you have any question, please feel free to contact us via `yutongwang1012@gmail.com`.
