@@ -1,0 +1,142 @@
+# general settings
+name: stage2
+model_type: CodeFormerIdx3DModel
+num_gpu: 4
+manual_seed: 42
+
+# dataset and data loader settings
+datasets:
+  train:
+    name: bfvr
+    type: bfvr_Dataset
+    dataroot_gt: [
+                  '/data/vfhq', 
+                  ]
+    filename_tmpl: '{}'
+    io_backend:
+      type: disk
+
+    in_size: 512
+    gt_size: 512
+    mean: [0.5, 0.5, 0.5]
+    std: [0.5, 0.5, 0.5]
+    use_hflip: true
+    use_corrupt: true
+
+    kernel_list: ['iso'] # 'iso', 'aniso'
+    kernel_prob: [1.0]
+    blur_kernel_size: 11
+    blur_sigma: [2, 5]
+    downsample_range: [2, 4]
+    noise_range: [0, 5]
+    crf_range: [18, 25]
+    jpeg_range: [50, 90]
+    mask_range: [48, 96]
+    flick_range: [0.5, 1.5]
+    flick_probe: 0.3
+
+    gaussian_en: 0
+    grey_en: 0
+    color_jitter_en: 0
+    noise_en: 0
+    ffmpeg_en: 0
+    downsample_en: 0
+    inpaint_en: 0
+    flick_en: 0
+    flick_sd_en: 1
+
+    latent_gt_path: ~ # without pre-calculated latent code
+
+    # data loader
+    num_worker_per_gpu: 4
+    batch_size_per_gpu: 1
+    dataset_enlarge_ratio: 1
+    prefetch_mode: ~
+
+    
+# network structures
+network_g:
+  type: CodeFormer3D
+  dim_embd: 256
+  n_head: 4
+  n_layers: 6
+  codebook_size: 1024
+  connect_list: ['32', '64', '128', '256']
+  fix_modules: ['quantize','generator']
+  vqgan_path: net_g_stage1.pth # pretrained VQGAN 
+
+network_vqgan: # this config is needed if no pre-calculated latent
+  type: VQAutoEncoder3D
+  img_size: 512
+  nf: 32
+  ch_mult: [1, 2, 4, 8]
+  quantizer: 'nearest'
+  codebook_size: 1024
+  model_path: net_g_stage1.pth # pretrained VQGAN 
+
+# path
+path:
+  pretrain_network_g: ~
+  param_key_g: params_ema
+  strict_load_g: false
+  pretrain_network_d: ~
+  strict_load_d: true
+  resume_state: ~
+
+train:
+  use_hq_feat_loss: true
+  feat_loss_weight: 10.0
+  warmup: 0
+  cross_entropy_loss: true
+  entropy_loss_weight: 0.5
+  fidelity_weight: 0
+
+  optim_g:
+    type: Adam
+    lr: !!float 5e-5
+    weight_decay: 0
+    betas: [0.9, 0.99]
+
+  scheduler:
+    type: MultiStepLR
+    milestones: [2500, 5000]
+    gamma: 0.5
+
+  total_iter: 50000
+
+  warmup_iter: -1  # no warm up
+  ema_decay: 0.995
+
+  use_adaptive_weight: true
+
+  net_g_start_iter: 0
+  net_d_iters: 1
+  net_d_start_iter: 0
+  manual_seed: 0
+
+# validation settings
+val:
+  val_freq: !!float 5e10 # no validation
+  save_img: true
+
+  metrics:
+    psnr: # metric name, can be arbitrary
+      type: calculate_psnr
+      crop_border: 4
+      test_y_channel: false
+
+# logging settings
+logger:
+  print_freq: 100
+  save_checkpoint_freq: !!float 5000
+  use_tb_logger: true
+  wandb:
+    project: ~
+    resume_id: ~
+
+# dist training settings
+dist_params:
+  backend: gloo
+  port: 29412
+
+find_unused_parameters: true
