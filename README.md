@@ -69,7 +69,7 @@
 # Getting Started
 
 ## Dependencies and Installation
-required packages in `requirements`
+Install required packages in `environment.yaml`
 ```
 # git clone this repository
 git clone https://github.com/Dixin-Lab/BFVR-STC
