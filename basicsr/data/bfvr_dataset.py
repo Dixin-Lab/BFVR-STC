@@ -334,7 +334,7 @@ class bfvr_Dataset(data.Dataset):
         return ret_np
 
     def load_sd_flicker_videos(self, opt, name, n_frame, start_idx):
-        lq_base = "/data/vfhq50-lq/flickeringsd"
+        lq_base = "/data/vfhq/flickeringsd"
         lq_path = os.path.join(lq_base, name + ".mp4")
         img_gt_list = []
         cnt = 0
