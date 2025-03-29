@@ -601,10 +601,8 @@ class VQGANDiscriminator3D(nn.Module):
             },
         }
         self.backbone = load(
-            "/nas2/yutong/dinov2-main",
-            self.backbones[backbone]["name"],
-            trust_repo=True,
-            source="local",
+            "facebookresearch/dinov2",
+            self.backbones[backbone]["name"]
         )
         for param in self.backbone.parameters():
             param.requires_grad = False
