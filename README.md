@@ -113,12 +113,13 @@ The implementation of commonly used metrics, such as PSNR, SSIM, LPIPS, FVD, IDS
    If you find our repo useful for your research, please consider citing our paper:
 
    ```bibtex
-    @article{wang2024efficient,
-    title={Efficient Video Face Enhancement with Enhanced Spatial-Temporal Consistency},
-    author={Yutong Wang and Jiajie Teng and Jiajiong Cao and Yuming Li and Chenguang Ma and Hongteng Xu and Dixin Luo},
-    journal={arXiv preprint arXiv:2411.16468},
-    year={2024}
-}
+    @inproceedings{wang2025efficient,
+      title={Efficient video face enhancement with enhanced spatial-temporal consistency},
+      author={Wang, Yutong and Teng, Jiajie and Cao, Jiajiong and Li, Yuming and Ma, Chenguang and Xu, Hongteng and Luo, Dixin},
+      booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+      pages={2183--2193},
+      year={2025}
+    }
    ```
 
 ## Acknowledgement
